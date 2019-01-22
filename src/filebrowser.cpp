@@ -121,7 +121,7 @@ void Render(SDL_Renderer *renderer, std::string *directory, Rectangles *rects)
 	rects->h.clear();
 	rects->filename.clear();
 
-    SDL_SetRenderDrawColor(renderer, 170, 185, 196, SDL_ALPHA_OPAQUE);
+    SDL_SetRenderDrawColor(renderer, 36,52,71, SDL_ALPHA_OPAQUE);
     SDL_RenderClear(renderer);
     
     //current directory contents
